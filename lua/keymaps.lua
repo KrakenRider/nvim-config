@@ -7,7 +7,7 @@ vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagn
 
 -- Exit terminal mode in the builtin terminal with a shortcut that is a bit easier
 -- was here but moved to toggle term.
--- vim.keymap.set('t', '<esc>', [[<C-\><C-n>]], { desc = 'Exit terminal Mode' })
+vim.keymap.set('t', '<esc>', [[<C-\><C-n>]], { desc = 'Exit terminal Mode' })
 
 -- TIP: Disable arrow keys in normal mode
 -- vim.keymap.set('n', '<left>', '<cmd>echo "Use h to move!!"<CR>')
